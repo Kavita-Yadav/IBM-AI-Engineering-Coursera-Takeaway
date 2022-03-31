@@ -56,7 +56,7 @@ from them, and then using that experience to solve the same problem in new situa
     - scikit-learn functions:
       - fix data using preprocessing. Preprocessing package of SciKit Learn provides several common utility functions and transformer classes to change
       raw feature vectors into a suitable form of vector for modeling.
-      from sklearn import preprocessing
+      @@ text in purple from sklearn import preprocessing
       X = preprocessing.StandardScaler().fit(X).transform(X)
       - Split dataset into train and test sets to train your model and then test the model's accuracy separately.
       from skelarn.model_selection import train_test_split
