@@ -56,25 +56,39 @@ from them, and then using that experience to solve the same problem in new situa
     - scikit-learn functions:
       - fix data using preprocessing. Preprocessing package of SciKit Learn provides several common utility functions and transformer classes to change
       raw feature vectors into a suitable form of vector for modeling.
-      @@ text in purple from sklearn import preprocessing
+      ```
+      from sklearn import preprocessing
       X = preprocessing.StandardScaler().fit(X).transform(X)
+      ```
       - Split dataset into train and test sets to train your model and then test the model's accuracy separately.
+      ```
       from skelarn.model_selection import train_test_split
       X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.33)
+      ```
       - Set up an algorithm. Example: build a classifier using a suport vector classification algorithm.
+      ```
       from sklearn import svm
       [//]: # CLF = estimator instance. Let's Initialize its parameters. C parameter in SVM is Penalty parameter of the error term. You can consider it as the degree of correct classification that the algorithm has to meet or the degree of optimization the the SVM has to meet. For greater values of C, there is no way that SVM optimizer can misclassify any single point.
       clf = svm.SVC(gamma= 0.001, C=100.)
+      ```
       - train the model with the train set by passing our training set to the fit method, CLF model learns to classify unknown cases.
+      ```
       clf.fit(X_train, y_train)
+      ```
       - now test set to run predictions and then result tell us what the class of each unknown value is.
+      ```
       clf.predict(X_test)
+      ```
       - can use the different metrices to evaluate model accuracy. Eg: using a confusion matrix to show results.
+      ```
       from sklearn.metrics import confusion_matrix
       print(confusion_matrix(y_test, yhat, labels=[1,0]))
+      ```
       - finally, save model
+      ```
       import pickle
       s= pickle.dumps(clf)
+      ```
       
       
       
