@@ -63,7 +63,7 @@ from them, and then using that experience to solve the same problem in new situa
       X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.33)
       - Set up an algorithm. Example: build a classifier using a suport vector classification algorithm.
       from sklearn import svm
-      # CLF = estimator instance. Let's Initialize its parameters.
+      [//]: # CLF = estimator instance. Let's Initialize its parameters. C parameter in SVM is Penalty parameter of the error term. You can consider it as the degree of correct classification that the algorithm has to meet or the degree of optimization the the SVM has to meet. For greater values of C, there is no way that SVM optimizer can misclassify any single point.
       clf = svm.SVC(gamma= 0.001, C=100.)
       - train the model with the train set by passing our training set to the fit method, CLF model learns to classify unknown cases.
       clf.fit(X_train, y_train)
