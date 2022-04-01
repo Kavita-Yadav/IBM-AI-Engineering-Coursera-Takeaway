@@ -124,15 +124,13 @@ The model works on its own to discover information. Unsupervised learning techni
   - Clustering is considered to be one of the most popular unsupervised machine learning techniques used for grouping data points, or objects that are somehow similar. It has manu applications: Discovering structure, Summarization, Anomaly detection.
 
 Difference between Supervised vs Unsupervised learning:
-```
+
 | Supervised Learning | Unsupervised Learning |
 | --- | --- |
 | Classification: Classifies labled data | Clustering: Finds patterns and groupings from unlabeled data. |
 | Regression: Predicts trends using previous labled data | Has fewes evaluation methods than supervised learning |
 | Has more evaluation methods than unsupervised learning | less controlled environment |
 | Controlled environment |  |
-- Regression: Predicts trends using 
 
-```
     
     
