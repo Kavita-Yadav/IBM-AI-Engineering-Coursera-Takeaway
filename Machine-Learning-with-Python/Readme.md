@@ -90,7 +90,49 @@ from them, and then using that experience to solve the same problem in new situa
       s= pickle.dumps(clf)
       ```
       
+Supervised vs Unsupervised Learning:  
+
+- What is supervised learning?
+Supervise means to observe and direct the execution of task,project or activity.
+Here we are going to supervise machine learning model.
+- How to supervise a machine learning model ?
+We "teach the model" then with that knowledge it can predict unknown or future instances. 
+- How do we teach a model?
+We teach a model with labeled dataset.
+- What is labeled dataset?
+ Labeled data is a group of samples that have been tagged with one or more lables.
+ Labelling typically takes a set of unlabeled data and augments each piece of it with informative tags.
+- what is the difference between labeled and unlabeled dataset?
+Labeled data is data that comes with a tag, like a name, a type, or a number. Unlabeled data is data that comes with no tag. Columns of data are called features.
+
+```
+For example: we have data of Pets.
+Pets labelled data can have label of : name of each pets(eg: dog, cat, rat), breed of different pets, also the weight and height can also be included.
+But in unlabbled data that information will not be available.
+```
+There are two types of data commonly used in machine learning i.e numeric and categorical(non-numeric). Categorical dataset is made for classification.
+
+Come back to supervised learning, we have two types of supervised learning techniques which are classification and regression.
+- Classification is the process of predicting a discrete class label or category.
+- Regression is the process of predicting continous values as opposed to predicting a categorical value in classification.
       
-      
+- what is unsupervised learning?
+The model works on its own to discover information. Unsupervised learning techniquesare Dimension reduction, Density estimation, Market basket analysis and Clustering.
+  - Dimension reduction: Dimensionality reduction or feature selection play a large role in this by reducing redundant features to make the classification easier.
+  - Market basket analysis is modeling technique based upon the theory that if you buy a certain group of items, you're more likely to buy another group of items.
+  - Density estimation is very simple concept that is mostly used to explore the data to find some structure within it.
+  - Clustering is considered to be one of the most popular unsupervised machine learning techniques used for grouping data points, or objects that are somehow similar. It has manu applications: Discovering structure, Summarization, Anomaly detection.
+
+Difference between Supervised vs Unsupervised learning:
+```
+| Supervised Learning | Unsupervised Learning |
+| --- | --- |
+| Classification: Classifies labled data | Clustering: Finds patterns and groupings from unlabeled data. |
+| Regression: Predicts trends using previous labled data | Has fewes evaluation methods than supervised learning |
+| Has more evaluation methods than unsupervised learning | less controlled environment |
+| Controlled environment |  |
+- Regression: Predicts trends using 
+
+```
     
     
