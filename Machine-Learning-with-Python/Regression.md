@@ -28,3 +28,15 @@ However the independent variable can be measured on either a categorical or cont
 Using above data, we are going to build regression estimation model, this model is going to predict the expected co2 emission for a new or unknown car.
 
 There are two type of regression models: simple regression model and multiple regression.
+
+Simple Linear Regression: One independent variable is used to estimate a dependent variable. It can be either linear or non linear. eg: predicting co2 emission using the variable of engine size. Linearity of regression is based on the nature of relationship between dependent and independent variable.
+
+Multiple Regression: When more than one independent variable is present the process is called multiple linear regression. eg: predicting co2 emission using engine size and the number of cylinders in any given car.
+
+Depending on the relationship between dependent or independent variables it can be linear or non-linear.
+
+Applications of regression:
+- Sales forecasting
+- Satisfaction analysis
+- Price estimation
+- Employement income
