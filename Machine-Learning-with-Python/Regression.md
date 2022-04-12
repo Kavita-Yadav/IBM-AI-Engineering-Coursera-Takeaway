@@ -1,4 +1,8 @@
-# Introduction to Regression
+# Regression
+
+## Linear Regression
+
+### Introduction to Regression
 
 what is regression ?
 Regression is process of predicting a continuous value.
@@ -40,3 +44,5 @@ Applications of regression:
 - Satisfaction analysis
 - Price estimation
 - Employement income
+
+### Simple Linear Regression:
