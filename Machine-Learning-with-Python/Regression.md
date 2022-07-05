@@ -46,3 +46,36 @@ Applications of regression:
 - Employement income
 
 ### Simple Linear Regression:
+Equation:
+**y' = B0 + B1*x**
+
+y' = response variable
+x = a single protector
+
+#### How to find the best fit?
+Example:
+x = 5.4 independent variable
+y = 250 actual Co2 emission of x1
+y' = 340 the predicted emission of x1
+error = y-y'= 250-340 = -90
+
+**MSE formula** = (1/n) * Σ(actual – forecast)2
+Where:
+
+    n = number of items,
+    Σ = summation notation,
+    Actual = original or observed y-value,
+    Forecast = y-value from regression.
+
+General steps to calculate the MSE from a set of X and Y values:
+- Find the regression line.
+- Insert your X values into the linear regression equation to find the new Y values (Y’).
+- Subtract the new Y value from the original to get the error.
+- Square the errors.
+- Add up the errors (the Σ in the formula is summation notation).
+- Find the mean.
+
+### Pros of linear regression:
+- Very fast.
+- No parameter tuning.
+- Easy to understand and highly interpretable.
