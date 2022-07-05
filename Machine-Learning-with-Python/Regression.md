@@ -79,3 +79,21 @@ General steps to calculate the MSE from a set of X and Y values:
 - Very fast.
 - No parameter tuning.
 - Easy to understand and highly interpretable.
+
+### Model Evaluation in Regression Models:
+- Train and Test on the Same Dataset.
+- Train/Test Split.
+
+### What is training & out-of-sample accuracy?
+- Training Accuracy
+    - High training accuracy isn't necessarily a good thing.
+    - Result over-fitting: **Over-fit:** the model is overly trained to the dataset, which may capture noise and produce a non-generalized model.
+- Out-of-Sample Accuracy:
+    - It's important that our models have a high, out-of-sample accuracy.
+    - How can we improve out-of-sample accuracy?
+### How to use k-fold cross-validation ?
+- 1st Fold - 80%(first 25% data used in testin, rest will be used in training the model)
+- 2nd Fold - 84%(second 25% data which is not used in first)
+- 3rd Fold - 82%(3rd 25% data which is not used in first,second)
+- 4th Fold - 86%(4th 25% data which is not used in first,second, third)
+Accuracy = avg(80%+84%+82%+86%) = 83%
