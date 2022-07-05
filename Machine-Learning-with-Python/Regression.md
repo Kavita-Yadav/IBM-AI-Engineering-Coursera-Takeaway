@@ -22,8 +22,8 @@ Regression is process of predicting a continuous value.
 
 In regression there are two types of variable: a dependent variable and one or more independent variables.
 
-Dependent variable: The dependent variable can be seen as the state, target or final goal we study and try to predict. It is notated by Y.
-Independent variable: It is also called as explanatory variables, can be seen as the causes of these states. It is notated by X.
+**Dependent variable:** The dependent variable can be seen as the state, target or final goal we study and try to predict. It is notated by Y.
+**Independent variable:** It is also called as explanatory variables, can be seen as the causes of these states. It is notated by X.
 A regression model relates Y to a function of X.
 In above dataset, ENGINESIZE, CYLINDERS, FUELCONSUMPTION_COMB are dependent variable and CO@EMISSIONS is independent variable. 
 In regression columns are called as features. The key point in regression is that our dependent value should be continuous and can not be a discrete value.
@@ -33,9 +33,9 @@ Using above data, we are going to build regression estimation model, this model 
 
 There are two type of regression models: simple regression model and multiple regression.
 
-Simple Linear Regression: One independent variable is used to estimate a dependent variable. It can be either linear or non linear. eg: predicting co2 emission using the variable of engine size. Linearity of regression is based on the nature of relationship between dependent and independent variable.
+**Simple Linear Regression:** One independent variable is used to estimate a dependent variable. It can be either linear or non linear. eg: predicting co2 emission using the variable of engine size. Linearity of regression is based on the nature of relationship between dependent and independent variable.
 
-Multiple Regression: When more than one independent variable is present the process is called multiple linear regression. eg: predicting co2 emission using engine size and the number of cylinders in any given car.
+**Multiple Regression:** When more than one independent variable is present the process is called multiple linear regression. eg: predicting co2 emission using engine size and the number of cylinders in any given car.
 
 Depending on the relationship between dependent or independent variables it can be linear or non-linear.
 
