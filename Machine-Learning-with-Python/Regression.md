@@ -117,5 +117,9 @@ Regression accuracy to determine the error: MAE, MSE, RMSE, RAE, RSE, R2
 - Multiple linear Regrssion is a method of predicting continous values.
     - y' = B0 + B1X1 + B2X2 + .... + BnXn
     - How to estimate B value ?
-        - Oridnary least Sqaures: Use Linear algebara operations but take long time for large datasets(10K+ rows)
-        - 
+        - Oridnary least Sqaures: Use Linear algebara operations but take long time for large datasets(10K+ rows).Best for small dataset.
+        - An optimization algorithm: A process of optimizing the values of the coefficients by iteratively minimizing the error of the model on training data. Eg: Gradient Descent(for large dataset). 
+- How to determine whether to use simple or multiple linear regression?
+- How many independent variable should you use ? Ans: Avoid using too many variable to avoid overfitting issue. 
+- Should the independent variable be continous ? Ans: Basically, categorical independent variables can be incorporated into a regression model by converting them into numerical variables. For example, given a binary variables such as car type,the code dummy zero for manual and one for automatic cars.
+- What are the linear relationships between the dependent variable and the independent variables? Ans: There are a number of ways to check for linear relationship. For example, you can use scatter plots and then visually checked for linearity.If the relationship displayed in your scatter plot is not linear,then you need to use non-linear regression
