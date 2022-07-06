@@ -122,4 +122,11 @@ Regression accuracy to determine the error: MAE, MSE, RMSE, RAE, RSE, R2
 - How to determine whether to use simple or multiple linear regression?
 - How many independent variable should you use ? Ans: Avoid using too many variable to avoid overfitting issue. 
 - Should the independent variable be continous ? Ans: Basically, categorical independent variables can be incorporated into a regression model by converting them into numerical variables. For example, given a binary variables such as car type,the code dummy zero for manual and one for automatic cars.
-- What are the linear relationships between the dependent variable and the independent variables? Ans: There are a number of ways to check for linear relationship. For example, you can use scatter plots and then visually checked for linearity.If the relationship displayed in your scatter plot is not linear,then you need to use non-linear regression
+- What are the linear relationships between the dependent variable and the independent variables? Ans: There are a number of ways to check for linear relationship. For example, you can use scatter plots and then visually checked for linearity.If the relationship displayed in your scatter plot is not linear,then you need to use non-linear regression.
+
+## Non-Linear Regression
+It is used to model non-linear relationship between the dependent variable and a set of independent variables.  
+- Polynomial Regression: fits a curve line to your data. Polynomial regression model can be transformed into linear regression model. 
+
+
+
