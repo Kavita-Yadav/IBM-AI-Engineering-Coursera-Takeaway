@@ -107,3 +107,15 @@ Regression accuracy to determine the error: MAE, MSE, RMSE, RAE, RSE, R2
     - RAE(Relative Absolute Error): Also called Residual sum of square. It takes the total absolute error and normalize it by diving the total absolute error of the simple predictor.
     - RSE(Relative Squared Error): It is used to calculate R-squared.
     - R-squared: It is not an error but widely used metrics to check the accuracy of model. It reprsent how close the data values are to the fitted regression line.The higher the R-sqaured value, the better the model fits your data.
+
+
+### Multiple Linear Regression
+- Independent variables effectiveness on prediction
+    - Does revision time, test anxiety, lecture attendance and gender have any effect on the exam performance of students ?
+- Predicting impacts of changes
+    - How much does blood pressure go up (or down) for every unit increase (or decrease) in the BMI of a patient?
+- Multiple linear Regrssion is a method of predicting continous values.
+    - y' = B0 + B1X1 + B2X2 + .... + BnXn
+    - How to estimate B value ?
+        - Oridnary least Sqaures: Use Linear algebara operations but take long time for large datasets(10K+ rows)
+        - 
