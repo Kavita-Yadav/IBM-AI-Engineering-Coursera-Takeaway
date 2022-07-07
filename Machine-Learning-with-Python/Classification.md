@@ -87,4 +87,21 @@ Minimizing the cost function of the model:
   - Predict the new customer X.
  
  ### Support Vector Machine
- 
+ SVM is a supervised algorithm that classifies cases by finding a separator.
+ 1. Mapping data to a high dimensional feature space.
+ 2. Finding a separator.  
+
+Advantages:
+- Accurate in high-dimensional spaces.
+- Memory efficient
+Disadvantages:
+- Prone to over-fitting
+- No probability estimation
+- Small datasets
+
+SVM application:
+- Image recognition
+- Text category assignment
+- Detecting spam
+- Sentiment analysis
+- Gene Expression Classification
