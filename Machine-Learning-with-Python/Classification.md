@@ -7,7 +7,7 @@
 
 #### How does classofication work? 
  Classification determines the class label for an unlabeled test case.
- -  Decision Trees(ID3, C4.5, C5.0)
+ - Decision Trees(ID3, C4.5, C5.0)
  - Naive Bayes
  - Linear Discriminant Analysis
  - K-Nearest Neighbor
