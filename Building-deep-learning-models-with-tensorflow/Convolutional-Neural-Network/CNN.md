@@ -39,4 +39,4 @@ CNN layer -> Pooling layer -> Fully connected layer
 
 * CNN Architecture:*
 
-![CNN_ARch.jpg](https://github.com/Kavita-Yadav/IBM-AI-Engineering-Coursera-Takeaway/blob/main/Building-deep-learning-models-with-tensorflow/Convolutional-Neural-Network/CNN_ARch.jpg)
+![](Building-deep-learning-models-with-tensorflow/Convolutional-Neural-Network/cnn_arch.jpg)
