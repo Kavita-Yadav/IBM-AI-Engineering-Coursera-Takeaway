@@ -31,7 +31,7 @@ CNN layer -> Pooling layer -> Fully connected layer
 - intialize kernel with random value.
 - Add relu activation function
 
-| Concolution layer: Intialize Kernel | Convolution layer: Activation function | Max Pooling layer | 1024 vector Fully connected layer |
+| Convolution layer: Intialize Kernel | Convolution layer: Activation function | Max Pooling layer | 1024 vector Fully connected layer |
 |-- | -- | -- | -- |
 | Extraction & Feature learning part |  Extraction & Feature learning part |  Extraction & Feature learning part | Classifiaction|
 | (28*28 Matrix)Image * ([5*5]*8 Matrix)Kernel = ([28*28]*8 Matrix)Image |  ([28*28]*8 Matrix)Image | [14*14]*8 Matrix  | Input from previous pooling layer matrix -> Flatten -> Fully connected nodes -> relu activation -> read out -> softmax -> output
@@ -40,3 +40,4 @@ CNN layer -> Pooling layer -> Fully connected layer
 * CNN Architecture:*
 
 ![](Building-deep-learning-models-with-tensorflow/Convolutional-Neural-Network/cnn_arch.jpg)
+
